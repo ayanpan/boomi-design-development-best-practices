@@ -45,7 +45,7 @@ Below are some of the best practces which can be followed while designing and bu
 
 :point_right: Remove unused components from the main **project folder**, either by deleting them or by moving them to your POC folder.
 
-**:point_right: Set **Tracking Fields** in the process.
+:point_right: Set **Tracking Fields** in the process.
 
 :point_right: Retain ability to "re-run" documents by **avoiding "No Data" Start Shape** in processes, wherever possible.
 
