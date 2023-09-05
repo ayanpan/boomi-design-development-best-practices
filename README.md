@@ -66,4 +66,4 @@ While performing this activity, if there's more than 1 connector present in the 
 
 :point_right: Plan for **Load Testing** preferably in the QA MS Cloud environment for the integrations where high data volume is expected.
 
-:point_right: Use **Process Mode** as **Low Latency** or **Bridge** for the real-time (API based) integrations involving high data volume.
+:point_right: Consider using **Process Mode** as **Low Latency** or **Bridge** for the real-time (API based) integrations involving high data volume, provided it's okay to capture no/limited logs in Boomi. However, ensure that the required logs are captured in some boundary system.
