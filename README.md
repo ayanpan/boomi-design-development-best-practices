@@ -60,5 +60,6 @@ Below are some of the best practces which can be followed while designing and bu
 :point_right: Consolidate Set Property shapes when possible, by setting multiple properties at once.
 
 :point_right: When opening a component or configuration with intention to only view the same, then don't click the "OK" or "Save" button when exiting them, instead use the "Cancel" or "X" button to exit them. This will ensure that you aren't accidentally saving any component/configuration.
-Plan for Load Testing preferably in the QA MS Cloud environment for the integrations where high data volume is expected.
+
+:point_right: Plan for Load Testing preferably in the QA MS Cloud environment for the integrations where high data volume is expected.
 Use Process Mode as Low Latency or Bridge for the real-time (API based) integrations involving high data volume.
