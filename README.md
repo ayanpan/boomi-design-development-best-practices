@@ -7,6 +7,9 @@ Below are some of the best practces which can be followed while designing and bu
 
 :point_right: **Reuse** the components wherever possible.
 
+:point_right: Select the appropriate **Extensions** of the **Connector** by clicking "Extensions → Connection Settings → Select required Connector from DropDownList", from the Process canvas ("Build" tab of Boomi platform).
+While performing this activity, if there's more than 1 connector present in the DropDownList, then look for the duplicate Connectors referenced in the Process, and remove them from the Process.
+
 :point_right: Limit the usage of multiple **Connector Call Lookups** as much as possible. 
 
 :point_right: Write **Display Name** in the Shapes, especially when there are multiple Shapes of similar nature. This will help identifying the flow when debugging the process in Process Reporting → Process State. 
