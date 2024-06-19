@@ -1,5 +1,5 @@
 # Boomi Best Practices - Design and Development
-Below are some of the best practces which can be followed while designing and building a Process or other component in Boomi iPaaS.
+Below are some of the best practces which can be followed while designing and developing a Process or other component in Boomi iPaaS.
 
 :point_right: Create a **Naming Conventions** document and name the folders, Process and its related components as per that document. The objective is to keep the names consistent across the account.
 
