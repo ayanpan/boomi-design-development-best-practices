@@ -24,7 +24,7 @@ While performing this activity, if there's more than 1 connector present in the 
 
 :point_right: When using Groovy in custom scripts, use **Groovy 2.4** and not Groovy 1.5 (now unsupported).
 
-:point_right: Write notes in the process using **Add Notes** whenever there's a complex logic.
+:point_right: Write notes in the process using **Add Notes** whenever there's a complex logic. It is also recommended to put the Notes on top of the Shape which it is meant for.
 
 :point_right: **Arrange** the Shapes (using the Arrange button) in the Build canvas, so that the Process looks tidy.
 
