@@ -1,9 +1,11 @@
 # Boomi Best Practices - A Developer's Guide
 Below are some of the best practces which can be followed while designing and developing a Process or other component in Boomi iPaaS.
 
-:point_right: Create a **Naming Conventions** document and name the folders, Process and its related components as per that document. The objective is to keep the names consistent across the account.
+:point_right: Create a **Naming Conventions** document and name the folders, Process and its related components, including the Properties (Process Property, Document Property, Dynamic Process Property, Dynamic Document Property), as per that document. The objective is to keep the names consistent across the account.
 
 :point_right: Create a separate folder for the **Connections** and other **common components**, and use the components in the Processes from that folder only.
+
+:point_right: Create a separate folder for POCs and create sub-folders inside this folder, with the folder name being the developer's name, for clear segregation.
 
 :point_right: **Reuse** the components wherever possible.
 
