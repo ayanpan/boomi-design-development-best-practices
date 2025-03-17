@@ -70,4 +70,4 @@ While performing this activity, if there's more than 1 connector present in the 
 
 :point_right: Consider using **Process Mode** as **Low Latency** or **Bridge** for the real-time (API based) integrations involving high data volume, provided it's okay to capture no/limited logs in Boomi. However, ensure that the required logs are captured in some boundary system.
 
-:point_right: When a Process is planned to be used as a Common Process, being called by multiple Main Processes, it's recommended to use a Process Route Shape instead of a Process Call Shape, so that we won't have to re-deploy the Main Processes whenever the Common Sub-Process is changes and re-deployed.
+:point_right: When a Process is planned to be used as a Common Process, being called by multiple Main Processes, it's recommended to use a Process Route Shape instead of a Process Call Shape, to call that Common-Sub-Process from the Main Processes, so that we won't have to re-deploy the Main Processes whenever the Common Sub-Process is updated and re-deployed.
